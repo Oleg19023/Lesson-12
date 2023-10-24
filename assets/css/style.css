@@ -8,16 +8,16 @@
 
 @keyframes moveCar {
     0% { 
-      offset-distance: 0%;
+      offset-distance: 0%; /* Error (offset-distance) ? */
     }
     100% { 
-      offset-distance: 100%;
+      offset-distance: 100%; /* Error (offset-distance) ? */
     }
   }
 
 #car {
     background-image: url(../images/car.png);
-    offset-path: path('M125 125H 875V 875H 125Z');
+    offset-path: path('M125 125H 875V 875H 125Z'); /* Error (offset-distance) ? */
     width: 150px;
     height: 74px;
     position: absolute;
