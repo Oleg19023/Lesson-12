@@ -21,7 +21,7 @@
     width: 150px;
     height: 74px;
     position: absolute;
-    animation: moveCar 15s linear infinite;
+    animation: moveCar 8s linear infinite;
     transform-origin: center;
 }
 
