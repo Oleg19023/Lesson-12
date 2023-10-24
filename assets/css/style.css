@@ -1,0 +1,27 @@
+#box {
+    background-image: url(../images/road.png);
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+    overflow: hidden;
+}
+
+@keyframes moveCar {
+    0% { 
+      offset-distance: 0%;
+    }
+    100% { 
+      offset-distance: 100%;
+    }
+  }
+
+#car {
+    background-image: url(../images/car.png);
+    offset-path: path('M125 125H 875V 875H 125Z');
+    width: 150px;
+    height: 74px;
+    position: absolute;
+    animation: moveCar 15s linear infinite;
+    transform-origin: center;
+}
+
