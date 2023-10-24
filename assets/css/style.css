@@ -17,7 +17,7 @@
 
 #car {
     background-image: url(../images/car.png);
-    offset-path: path('M125 125H 875V 875H 125Z'); /* Error (offset-distance) ? */
+    offset-path: path('M125 125H 875V 875H 125Z'); /* Error (offset-path) ? */
     width: 150px;
     height: 74px;
     position: absolute;
